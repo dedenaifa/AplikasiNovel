@@ -1,0 +1,63 @@
+<!-- activity_komik.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Komik List"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/titleTextView">
+
+        <Button
+            android:id="@+id/btnKomik1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One Piece"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnKomik2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kingdom"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnKomik3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grand Blue"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnKomik4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demon Slayer"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnKomik5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jujutsu Kaisen"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

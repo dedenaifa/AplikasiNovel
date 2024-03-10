@@ -1,0 +1,66 @@
+<!-- activity_fiksi_ilmiah.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Fiksi Ilmiah List"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/titleTextView">
+
+        <Button
+            android:id="@+id/btnFiksiIlmiah1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alien"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnFiksiIlmiah2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Terminator"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnFiksiIlmiah3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blade Runner"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnFiksiIlmiah4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Thing"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnFiksiIlmiah5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insterstella"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

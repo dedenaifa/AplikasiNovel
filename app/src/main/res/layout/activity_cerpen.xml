@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerpen List"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/cerpenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/titleTextView">
+
+        <Button
+            android:id="@+id/btnCerpen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Impian Angsa Kecil"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnCerpen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kesepian di Masa Tua"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnCerpen3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semua Belum Usai"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnCerpen4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tak Gentar"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnCerpen5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terimakasih Ibu"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+    </LinearLayout>
+</RelativeLayout>
